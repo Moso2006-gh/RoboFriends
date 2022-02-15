@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import "tachyons";
-import Card from "./Components/Card/Card"
+import CardList from "./Components/Card/CardList"
 //import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card url="https://robohash.org/a" name="Juan Alvero" email="jalverdoa@gmail.com"/>
+    <div id="Robots">
+      <CardList></CardList>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
