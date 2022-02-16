@@ -1,10 +1,10 @@
 import React from "react";
 import "./Card.css"
-import {robots} from "../robots"
 
 class Card extends React.Component {
     render() {
         const idd = this.props.idd;
+        const robots = this.props.robots;
         return(
             <div className=" tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5 card">
                 <img alt="Foto" src= {"https://robohash.org/" + robots[idd].id + "?100x100"} className="imagen"/>
