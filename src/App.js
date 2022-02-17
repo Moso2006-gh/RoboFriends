@@ -8,9 +8,15 @@ class App extends React.Component{
     constructor(){
         super()
         this.state = {
-            robotList: robots,
+            robotList: [],
             searchField: ""
         }
+    }
+    componentDidMount(){
+        fetch("https://jsonplaceholder.typicode.com/users")
+            .then(reponse => reponse.json())
+            .then(users =>this.setState({robotList: users})
+        )
     }
 
     onSearchCange = (event) => {
