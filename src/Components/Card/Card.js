@@ -5,11 +5,20 @@ class Card extends React.Component {
     render() {
         const idd = this.props.idd;
         const robots = this.props.robots;
+
+        let RobotName;
+        if(robots[idd].name.length > 11){
+            RobotName = robots[idd].name.substring(0,11) + "...";
+        }
+        else{
+            RobotName = robots[idd].name;
+        }
         return(
             <div className=" tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5 card">
                 <img alt="Foto" src= {"https://robohash.org/" + robots[idd].id + "?100x100"} className="imagen"/>
                 <div id="Info">
-                    <h2 className="Nombre">{robots[idd].name}</h2>
+                    <h2 className="Nombre">{RobotName}</h2>
+                    <p className="usuario">{robots[idd].username}</p>
                     <span className="Email">{robots[idd].email}</span>
                 </div>
             </div>

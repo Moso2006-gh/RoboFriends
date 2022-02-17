@@ -1,9 +1,10 @@
-p{
-    background-color: antiquewhite;
-}
 
 .imagen{
     width: 200px;
     height: 200px;
     justify-content: center;
+}
+
+.usuario{
+    font-weight: 700;
 }

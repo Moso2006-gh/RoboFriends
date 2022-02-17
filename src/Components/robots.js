@@ -7,7 +7,7 @@ export const robots = [
   },
   {
     id: 2,
-    name: 'Ervin Howell',
+    name: 'ErMosusGlub',
     username: 'Antonette',
     email: 'Shanna@melissa.tv'
   },
@@ -49,7 +49,7 @@ export const robots = [
   },
   {
     id: 9,
-    name: 'Glenna Reichert',
+    name: 'Lefifi',
     username: 'Delphine',
     email: 'Chaim_McDermott@dana.io'
   },
@@ -58,5 +58,11 @@ export const robots = [
     name: 'Clementina DuBuque',
     username: 'Moriah.Stanton',
     email: 'Rey.Padberg@karina.biz'
+  },
+  {
+    id: 1211121345,
+    name: 'Lefi❤pollas',
+    username: 'El Caganet',
+    email: 'dlaf1000@gmail.com'
   }
 ];
