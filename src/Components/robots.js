@@ -61,8 +61,8 @@ export const robots = [
   },
   {
     id: 1211121345,
-    name: 'Lefi❤pollas',
-    username: 'El Caganet',
+    name: 'Lefi❤pollón',
+    username: 'Polli:)',
     email: 'dlaf1000@gmail.com'
   }
 ];
